@@ -1,0 +1,28 @@
+{
+  "name": "cli-orchestrator",
+  "version": "0.1.0",
+  "description": "Orchestrate multiple AI CLIs (Claude, Gemini, Codex) from a single controller. Delegate tasks to the right model.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "orch": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/orchestrator.test.js",
+    "lint": "echo 'no linter configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npezarro/cli-orchestrator.git"
+  },
+  "keywords": ["ai", "cli", "orchestrator", "claude", "gemini", "codex", "multi-model"],
+  "author": "npezarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npezarro/cli-orchestrator/issues"
+  },
+  "homepage": "https://github.com/npezarro/cli-orchestrator#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
